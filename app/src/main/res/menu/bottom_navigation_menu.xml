@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:id="@+id/breakingNewsFragment"
+     android:icon="@drawable/ic_breaking_news"
+     tools:ignore="MenuTitle"
+     />
+    <item android:id="@+id/savedNewsFragment"
+        android:icon="@drawable/ic_favorite"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/searchNewsFragment"
+        android:icon="@drawable/ic_all_news"
+        tools:ignore="MenuTitle" />
+</menu>
