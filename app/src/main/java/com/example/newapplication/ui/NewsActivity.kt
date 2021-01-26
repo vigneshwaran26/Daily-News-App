@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.newapplication.R
-import com.example.newapplication.db.ArticleDatabase
+import com.example.newapplication.database.ArticleDatabase
 import com.example.newapplication.repository.NewsRepository
 import kotlinx.android.synthetic.main.activity_news.*
 

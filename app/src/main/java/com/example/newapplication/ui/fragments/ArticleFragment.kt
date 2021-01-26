@@ -3,6 +3,7 @@ package com.example.newapplication.ui.fragments
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebViewClient
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.example.newapplication.R
@@ -17,6 +18,7 @@ class ArticleFragment: Fragment(R.layout.fragment_article) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as AppCompatActivity).supportActionBar?.title = "News"
         viewModel = (activity as NewsActivity).viewModel
 
         val article = args.articles

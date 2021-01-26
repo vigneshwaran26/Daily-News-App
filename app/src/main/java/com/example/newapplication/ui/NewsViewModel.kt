@@ -35,7 +35,7 @@ class NewsViewModel(
 
 
     init {
-        getBreakingNews("us")
+        getBreakingNews("in")
     }
 
     fun getBreakingNews(countryCode: String) = viewModelScope.launch {
@@ -62,9 +62,6 @@ class NewsViewModel(
         }
         return Resource.Error(response.message())
     }
-
-
-
 
     private fun handleSearchNewsResponse(response: Response<NewsResponse>) : Resource<NewsResponse> {
         if(response.isSuccessful) {

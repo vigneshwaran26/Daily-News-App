@@ -9,6 +9,6 @@
         android:icon="@drawable/ic_favorite"
         tools:ignore="MenuTitle" />
     <item android:id="@+id/searchNewsFragment"
-        android:icon="@drawable/ic_all_news"
+        android:icon="@drawable/ic_baseline_search_24"
         tools:ignore="MenuTitle" />
 </menu>

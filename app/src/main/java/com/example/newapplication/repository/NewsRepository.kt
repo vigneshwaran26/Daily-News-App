@@ -1,7 +1,7 @@
 package com.example.newapplication.repository
 
 import com.example.newapplication.api.Retrofitinstance
-import com.example.newapplication.db.ArticleDatabase
+import com.example.newapplication.database.ArticleDatabase
 import com.example.newapplication.models.Article
 
 class NewsRepository(

@@ -2,6 +2,7 @@ package com.example.newapplication.ui.fragments
 
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
@@ -21,6 +22,7 @@ class SavedNewsFragment : Fragment(R.layout.fragment_saved_news){
     lateinit var newsAdapter : NewsAdapter
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as AppCompatActivity).supportActionBar?.title = "Saved News"
         viewModel = (activity as NewsActivity).viewModel
         setupRecyclerView()
 
