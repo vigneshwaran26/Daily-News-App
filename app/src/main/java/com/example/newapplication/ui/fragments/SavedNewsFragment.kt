@@ -22,6 +22,7 @@ class SavedNewsFragment : Fragment(R.layout.fragment_saved_news){
     lateinit var newsAdapter : NewsAdapter
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        (activity as AppCompatActivity).supportActionBar?.show()
         (activity as AppCompatActivity).supportActionBar?.title = "Saved News"
         viewModel = (activity as NewsActivity).viewModel
         setupRecyclerView()

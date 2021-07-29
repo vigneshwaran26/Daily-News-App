@@ -18,10 +18,7 @@ import kotlinx.coroutines.launch
 import okio.IOException
 import retrofit2.Response
 
-class NewsViewModel(
-    app: Application,
-    val newsRepository: NewsRepository
-) : AndroidViewModel(app) {
+class NewsViewModel(app: Application, val newsRepository: NewsRepository) : AndroidViewModel(app) {
 
     val breakingNews: MutableLiveData<Resource<NewsResponse>> = MutableLiveData()
     var breakingNewsPage = 1

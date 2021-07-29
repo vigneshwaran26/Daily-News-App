@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="8dp"
-    app:cardCornerRadius="0dp"
+    app:cardCornerRadius="8dp"
     android:layout_marginBottom="5dp"
     android:background="@color/colorPrimary">
 
@@ -18,7 +18,7 @@
         <ImageView
             android:id="@+id/ivArticleImage"
             android:layout_width="match_parent"
-            android:layout_height="180dp"
+            android:layout_height="235dp"
             android:scaleType="centerCrop"
             android:background="#2C2F30"
             app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
             android:layout_marginLeft="36dp"
             android:text="SOURCE"
             android:textColor="#C1B3C3"
-            android:textSize="12sp"
+            android:textSize="13sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ivArticleImage"

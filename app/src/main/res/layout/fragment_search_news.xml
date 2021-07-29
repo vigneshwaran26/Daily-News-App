@@ -9,8 +9,9 @@
     <EditText
         android:id="@+id/etSearch"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
-        android:hint="Search..."
+        android:layout_height="30dp"
+        android:hint="Search"
+        android:textSize="17sp"
         android:textColorHint="#CABCBC"
         android:textColor="#fff"
         android:background="@drawable/edit_text_background"
